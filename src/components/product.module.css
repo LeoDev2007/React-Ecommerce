@@ -1,0 +1,18 @@
+
+ .productContainer{
+   position: relative;
+   top: 135px;
+} 
+
+.productContainer h2{
+   padding: 20px;
+   font-size: 50px;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+}
+
+.productContainer p{
+   padding: 0 20px;
+   font-size: 20px;
+}
+

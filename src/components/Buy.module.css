@@ -1,0 +1,9 @@
+.buy{
+    position: relative;
+    top: 135px;
+}
+
+.buyImg img{
+    width: 100px;
+    height: 100px;
+}

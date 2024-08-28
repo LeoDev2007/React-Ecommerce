@@ -1,0 +1,92 @@
+header .menuContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+    border-bottom: 2px solid #000;
+    background-color: #F0F3F4;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    
+}
+
+header .Logo span{
+    color: #0015C0;
+}
+
+header .menuDesktop ul{
+    display: flex;
+    
+}
+
+header .menuDesktop ul li{
+    margin-right: 30px;
+    font-size: 23px;
+    list-style: none;
+}
+
+header .menuDesktop ul li .link{
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s;
+}
+
+.menuDesktop .link:hover{
+    color: #0015C0;
+    border-bottom: 1px solid #0015C0;
+}
+
+.buttons ul{
+    display: flex;
+}
+
+.buttons ul li{
+    list-style: none;
+    margin-left: 50px;
+}
+
+.buttons .btnLog{
+    padding: 12px 22px;
+    border: none;
+    background-color: #0015C0;
+    color: #F0F3F4;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: 0.5s;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.buttons .btnLog:hover{
+    background-color: transparent;
+    color: #0015C0;
+    border: 1px solid #0015C0;
+}
+
+.buttons .linkCart{
+    font-size: 30px;
+    position: relative;
+    top: 14px;
+    color: #F0F3F4;
+    background-color: #0015C0;
+    border-radius: 50%;
+    padding: 4px 10px 4px 10px;
+    transition: 0.5s;
+    margin: 0 auto;
+}
+
+.linkCart svg{
+    position: relative;
+    bottom: 2px;
+    right: 1px;
+}
+
+
+.buttons .linkCart:hover{
+    color: #0015C0;
+    background-color: #F0F3F4;
+    border: 1px solid #0015C0;
+}

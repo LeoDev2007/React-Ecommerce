@@ -1,0 +1,113 @@
+import img1 from '../images/android.jpg'
+
+const Data = {
+    productData:[
+        {
+            id: 1,
+            img: img1,
+            title: 'Samsung Galaxy S23',
+            price: 'R$2998',
+            desc: '256GB Branco 5G 8GB',
+            searchTerms: ['samsung', 'galaxy', 's23', '256gb', 'branco', '5g', '8gb', 'celular'],
+        },
+        {
+            id: 2,
+            img: img1,
+            title: 'Samsung Galaxy S23',
+            price: 'R$2998',
+            desc: '256GB Branco 5G 8GB',
+            searchTerms: 'samsung galaxy s23 256gb branco 5g 8gb celular',
+        },
+        {
+            id: 3,
+            img: img1,
+            title: 'Samsung Galaxy S23',
+            price: 'R$2998',
+            desc: '256GB Branco 5G 8GB',
+            searchTerms: 'samsung galaxy s23 256gb branco 5g 8gb celular',
+        },
+        {
+            id: 4,
+            img: img1,
+            title: 'Samsung Galaxy S23',
+            price: 'R$2998',
+            desc: '256GB Branco 5G 8GB',
+            searchTerms: 'samsung galaxy s23 256gb branco 5g 8gb celular',
+        },
+        {
+            id: 5,
+            img: img1,
+            title: 'Samsung Galaxy S23',
+            price: 'R$2998',
+            desc: '256GB Branco 5G 8GB',
+            Cat: 'Celular',
+            searchTerms: ['samsung', 'galaxy', 's23', '256gb', 'branco', '5g', '8gb', 'celular'],
+        },
+        {
+            id: 6,
+            img: img1,
+            title: 'Samsung Galaxy S23',
+            price: 'R$2998',
+            desc: '256GB Branco 5G 8GB',
+            Cat: 'Celular',
+            searchTerms: ['samsung', 'galaxy', 's23', '256gb', 'branco', '5g', '8gb', 'celular'],
+        },
+        {
+            id: 7,
+            img: img1,
+            title: 'Samsung Galaxy S23',
+            price: 'R$2998',
+            desc: '256GB Branco 5G 8GB',
+            Cat: 'Celular',
+            searchTerms: ['samsung', 'galaxy', 's23', '256gb', 'branco', '5g', '8gb', 'celular'],
+        },
+        {
+            id: 8,
+            img: img1,
+            title: 'Samsung Galaxy S23',
+            price: 'R$2998',
+            desc: '256GB Branco 5G 8GB',
+            Cat: 'Tablet',
+            searchTerms: ['samsung', 'galaxy', 's23', '256gb', 'branco', '5g', '8gb', 'tablet'],
+        },
+        {
+            id: 9,
+            img: img1,
+            title: 'Samsung Galaxy S23',
+            price: 'R$2998',
+            desc: '256GB Branco 5G 8GB',
+            Cat: 'Tablet',
+            searchTerms: ['samsung', 'galaxy', 's23', '256gb', 'branco', '5g', '8gb', 'tablet'],
+        },
+        {
+            id: 10,
+            img: img1,
+            title: 'Samsung Galaxy S23',
+            price: 'R$2998',
+            desc: '256GB Branco 5G 8GB',
+            Cat: 'Notebook',
+            searchTerms: ['samsung', 'galaxy', 's23', '256gb', 'branco', '5g', '8gb', 'notebook'],
+        },
+        {
+            id: 11,
+            img: img1,
+            title: 'Samsung Galaxy S23',
+            price: 'R$2998',
+            desc: '256GB Branco 5G 8GB',
+            Cat: 'Fone',
+            searchTerms: ['samsung', 'galaxy', 's23', '256gb', 'branco', '5g', '8gb', 'fone', 'fone de ouvido'],
+        },
+        {
+            id: 12,
+            img: img1,
+            title: 'Samsung Galaxy S23',
+            price: 'R$2998',
+            desc: '256GB Branco 5G 8GB',
+            Cat: 'Microfone' ,
+            searchTerms: ['samsung', 'galaxy', 's23', '256gb', 'branco', '5g', '8gb', 'microfone'],
+        },
+       
+    ]
+}       
+
+export default Data;
