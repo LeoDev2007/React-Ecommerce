@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/LeoDev2007/React-Ecommerce.git/static/css/main.b14521b0.css",
+    "main.js": "/LeoDev2007/React-Ecommerce.git/static/js/main.e7f52edd.js",
+    "static/js/453.0f4552a2.chunk.js": "/LeoDev2007/React-Ecommerce.git/static/js/453.0f4552a2.chunk.js",
+    "static/media/android.jpg": "/LeoDev2007/React-Ecommerce.git/static/media/android.cf7ad0a24090e11ff8af.jpg",
+    "index.html": "/LeoDev2007/React-Ecommerce.git/index.html",
+    "main.b14521b0.css.map": "/LeoDev2007/React-Ecommerce.git/static/css/main.b14521b0.css.map",
+    "main.e7f52edd.js.map": "/LeoDev2007/React-Ecommerce.git/static/js/main.e7f52edd.js.map",
+    "453.0f4552a2.chunk.js.map": "/LeoDev2007/React-Ecommerce.git/static/js/453.0f4552a2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b14521b0.css",
+    "static/js/main.e7f52edd.js"
+  ]
+}
