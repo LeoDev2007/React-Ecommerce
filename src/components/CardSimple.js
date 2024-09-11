@@ -10,9 +10,9 @@ const CardSimple = (props) =>{
                 <div className={styles.cardBody}>
                     <h2>{props.title}</h2>
                     <p>{props.price}</p>
+                    <p>{props.parcel}</p>
                     <p>{props.desc}</p>
                     <div className={styles.cardBtn}>
-                        <button>Adicionar ao Carrinho</button>
                         <Link to = {`/Buy/${props.id}`}><button>Ver Detalhes</button></Link>
                     </div>
                 </div>

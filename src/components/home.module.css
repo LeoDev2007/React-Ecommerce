@@ -8,3 +8,10 @@
     align-items: center;
     justify-content: space-around;
 }
+
+@media (max-width: 1280px){
+    .cardsContainer{
+        width: 100%;
+        margin: 0 auto;
+    }
+}

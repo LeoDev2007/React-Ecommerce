@@ -22,7 +22,7 @@ const Home = () => {
         <div className={styles.cardsContainer}>
          {fourProducts.map((item, index)=>{
             return(
-                <CardSimple id={item.id} img={item.img} title={item.title} price = {item.price} desc = {item.desc} key = {index}   />
+                <CardSimple id={item.id} img={item.img} title={item.title} price = {item.price} parcel={item.parcel} desc = {item.desc} key = {index}   />
             )
          })}
         

@@ -4,9 +4,9 @@ import CardSimple2 from './CardSimple2.js';
 import styles from './CatPro.module.css';
 import data from './Data.js'
 
-const CatPro = ({products, setProducts}) => {
+const CatPro = ({ products, setProducts }) => {
 
-    const eightProducts = data.productData.slice(4,12) 
+    const eightProducts = data.productData.slice(4, 12)
 
     const filterProducts = (categoria) => {
         const update = eightProducts.filter((product) => product.Cat === categoria)
@@ -17,7 +17,7 @@ const CatPro = ({products, setProducts}) => {
         setProducts(eightProducts);
     }
 
-   
+
 
 
     return (
@@ -40,12 +40,12 @@ const CatPro = ({products, setProducts}) => {
                     <h2><span>Top Produtos</span></h2>
                     <div className={styles.content}>
                         {products.map((item, index) => (
-                            <CardSimple2 id={item.id} img={item.img} title={item.title} price={item.price} desc={item.desc} key={index}  />
+                            <CardSimple2 id={item.id} img={item.img} title={item.title} price={item.price} parcel={item.parcel} desc={item.desc} key={index} />
                         ))}
                     </div>
                 </div>
             </div>
-            
+
         </div>
     );
 }

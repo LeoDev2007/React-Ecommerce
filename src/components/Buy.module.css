@@ -1,9 +1,87 @@
 .buy{
     position: relative;
     top: 135px;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.buyContainer{
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.buyImg{
+    width: 500px;
+    height: 500px;
 }
 
 .buyImg img{
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+}
+
+.buyContent{
+    padding: 20px;
+}
+
+.buyContent h2{
+    font-size: 50px;
+}
+
+.buyContent p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.rate{
+    display: flex;
+    margin-top: 20px;
+}
+
+.rate p{
+    margin-top: 5px;
+}
+
+
+.rate ul{
+    display: flex;
+    margin: 2px;
+}
+
+.rate li{
+    list-style-type: none;
+    color: #0015C0;
+    font-size: 20px;
+}
+
+.buyBtn{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+
+}
+
+.buyBtn button{
+    margin-top: 20px;
+    border: none;
+    padding: 10px 10px;
+    background-color: #0015C0;
+    color: #fff;
+    border-radius: 30px;
+    transition: .3s;
+}
+
+.buyBtn button:hover{
+    background-color: #fff;
+    color: #0015C0;
+    box-shadow: 0 5px 8px;
 }
