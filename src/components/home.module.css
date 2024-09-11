@@ -15,3 +15,14 @@
         margin: 0 auto;
     }
 }
+
+@media (max-width: 835px){
+    .home{
+        height: 100vh;
+    }
+
+    .cardsContainer{
+        max-width: 700px;
+        margin: 0 auto;
+    }
+}

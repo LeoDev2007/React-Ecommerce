@@ -89,3 +89,22 @@
 
    
 }
+
+@media (max-width: 834px){
+    .cardContainer{
+        width: 180px;
+        height: 280px;
+        
+    }
+
+    .cardBody p{
+        
+        margin: 5px 0;
+        font-size: 15px;
+    }
+
+    .cardBody{
+        top: -140%;
+        padding: 60px 0 !important;
+    }
+}
